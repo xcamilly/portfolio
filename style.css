@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: radial-gradient(circle at top left, #ff7ffb, #000000 60%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.info h2 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.info span {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+a {
+    color: #8ab8ff;
+}
+
+details {
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+summary {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+details p, details ul {
+    margin-top: 10px;
+}
+
+ul {
+    padding-left: 18px;
+}
